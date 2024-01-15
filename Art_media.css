@@ -1,0 +1,1402 @@
+/* Media Query Navigation Bar Start : */
+@media screen and (min-width:320px) and (max-width:767px){
+     .navbg{
+        height:200px;
+        flex-direction: column;
+    }
+    
+    #logo{
+        font-size: 20px;
+        left:50px;
+    }
+
+    .navtextoptions{
+        /* margin-left:70px; */
+        padding-left:0px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navtext{
+        text-decoration: none;
+        font-size: 10px;
+        padding:7px;
+    } 
+
+    .dropdown > button{
+        font-size:10px;
+    }
+
+    .dropdown>button:hover{
+        color:orange;
+    }
+
+    .dropdown-content > a{
+        font-size:10px;
+        padding-top:10px;
+        padding-left:5px;
+        width:100px;
+    }
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+   
+    .navbg{
+        height:50px;
+    }
+    
+    #logo{
+        font-size: 15px;
+        left:50px;
+    }
+
+    .navtextoptions{
+        margin-left:70px;
+        padding-left:0px;
+        display:flex;
+        align-items: center;
+    }
+
+    .navtext{
+        text-decoration: none;
+        font-size: 10px;
+        padding:7px;
+    } 
+
+    .dropdown > button{
+        font-size:10px;
+    }
+
+    .dropdown-content > a{
+        font-size:10px;
+        padding-top:10px;
+        padding-left:5px;
+        width:100px;
+    }
+ }
+
+@media screen and (min-width:1024px) and (max-width:1439px) {
+    
+    .navbg{
+        height:50px;
+    }
+    
+    #logo{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .navtextoptions{
+        margin-left:130px;
+        padding-left:10px;
+        display:flex;
+        align-items: center;
+    }
+
+    .navtext{
+        color:black;
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 12px;
+        padding:10px;
+    } 
+
+    .navtext:hover{
+        color: orange;
+    }
+    
+    .dropdown > button{
+        font-size:12px;
+    }
+
+    .dropdown-content > a{
+        font-size:10px;
+        padding-top:10px;
+        padding-left:5px;
+        width:100px;
+    }
+ }
+
+ @media screen and (min-width:1440px) and (max-width:2560px) {
+    
+    .navbg{
+        height:50px;
+    }
+    
+    #logo{
+        font-family:'Roboto',sans-serif;
+        font-size: 30px;
+        left:50px;
+        font-weight: bolder;
+    }
+
+    .navtextoptions{
+        margin-left:300px;
+        padding-left:0px;
+        display:flex;
+        align-items: center;
+    }
+
+    .navtext{
+        color:black;
+        font-family:'Roboto',sans-serif;
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 15px;
+        padding:7px;
+    } 
+
+    .navtext:hover{
+        color: orange;
+    }
+    
+    .dropdown > button{
+        font-size:15px;
+    }
+
+    .dropdown-content > a{
+        font-size:10px;
+        padding-top:10px;
+        padding-left:5px;
+        width:100px;
+    }
+ }
+
+ /* Media Query Navigation Bar end */
+
+ /* First Background with Trophy   */
+
+@media screen and (min-width:320px) and (max-width:767px){
+      #firstbg{
+        /* height: 600px; */
+        width:100%;
+        flex-direction: column;
+        /* margin-top:100px; */
+    }
+
+    .leftcontent{
+        margin-left:0px;
+        margin-bottom:50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Heading{
+        font-size: 30px;
+        text-align: center;   
+    }
+
+    .text{
+        font-size:10px;
+        text-align: center;
+    }
+    
+    .findbutton{
+        font-size:9px;
+        margin-top:10px;
+        height:20px;
+        width:100px;  
+    }
+    
+    .rightcontent{
+        margin-left:0px;
+        justify-content: center;
+        margin-top:0px;
+        margin-bottom:100px;
+    }
+
+    .rightcontent > img{
+        height:250px;
+        width:250px;
+    }
+
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    #firstbg{
+        height: 550px;
+        width:100%;
+    }
+
+    .leftcontent{
+        margin-left:0px;
+        margin-top:80px;
+    }
+
+    .Heading{
+        font-size: 30px;
+    }
+
+    .text{
+        font-size:10px;
+    }
+    
+    .findbutton{
+        font-size:9px;
+        margin-top:10px;
+        height:20px;
+        width:100px;  
+    }
+    
+    .rightcontent{
+        margin-left:0px;
+    }
+
+    .rightcontent > img{
+        height:270px;
+        width:270px;
+    }
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1439px) {
+    
+    #firstbg{
+        height: 550px;
+        width:100%;
+    }
+
+    .leftcontent{
+        display:flex;
+        flex-direction: column;
+        margin-left:0px;
+        margin-top:50px;
+    }
+
+    .Heading{
+        color:white;
+        font-family:'Roboto',sans-serif;
+        font-size: 50px;
+    }
+
+    .text{
+        color:white;
+        font-family:'Roboto',sans-serif;
+        font-size:13px;
+        font-weight:light;
+    }
+    
+    .findbutton{
+        background-color: red;
+        color:white;
+        font-family: 'Roboto',sans-serif;
+        font-size:10px;
+        margin-top:20px;
+        height:30px;
+        width:120px;
+        border:none;   
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .findbutton:hover{
+        background-color: rgb(111,220,235);
+    }
+    
+    .rightcontent{
+        margin-left:0px;
+        margin-top:100px;
+    }
+
+    .rightcontent > img{
+        height:330px;
+        width:330px;
+    }
+
+
+}
+
+ @media screen and (min-width:1440px) and (max-width:2560px) {
+     #firstbg{
+        height: 800px;
+        width:100%;
+    }
+
+    .leftcontent{
+        display:flex;
+        flex-direction: column;
+        margin-left:30px;
+        margin-top:50px;
+    }
+
+    .Heading{
+        color:white;
+        font-family:'Roboto',sans-serif;
+        font-size: 70px;
+        margin-left:0px;
+    }
+
+    .text{
+        color:white;
+        font-family:'Roboto',sans-serif;
+        font-size:20px;
+        font-weight:light;
+    }
+    
+    .findbutton{
+        background-color: red;
+        color:white;
+        font-family: 'Roboto',sans-serif;
+        font-size:13px;
+        height:35px;
+        width:150px;
+        border:none; 
+        margin-top:10px;  
+        border-radius: 22px 22px 22px 22px;
+    }
+    
+    .findbutton:hover{
+        background-color: rgb(111,220,235);
+    }
+    
+    .rightcontent{
+        margin-left:0px;
+        margin-top:180px;
+    }
+
+    .rightcontent > img{
+        height:400px;
+        width:400px;
+    }
+
+ 
+ }
+
+ /* Media Query for Book & Content Start */
+
+ @media screen and (min-width:320px) and (max-width:767px){
+
+    #bookscontent{
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+
+     .book_img>.books{
+        height:200px;
+        width:200px;
+    }
+     .pheading{
+        font-size:15px;
+    }
+
+    .pcontent{
+        font-size:10px;
+    }
+
+    .Discover{
+        font-size: 8px;
+        margin-top:20px;
+        height:20px;
+        width:100px;
+    }
+ 
+ 
+ }
+
+ @media screen and (min-width:768px) and (max-width:1023px) {
+   
+    #bookscontent{
+        width:100%;
+    }
+    .books{
+        height:400x;
+        width:350px;
+    }
+
+    .pheading{
+        font-size:15px;
+    }
+
+    .pcontent{
+        font-size:10px;
+    }
+
+    .Discover{
+        font-size: 8px;
+        margin-top:20px;
+        height:20px;
+        width:100px;
+    }
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1439px) {
+
+    #bookscontent{
+    width:100%;
+    }
+
+    .books{
+        height:500x;
+        width:450px;
+    }
+
+    .pheading{
+        font-family:'Roboto',sans-serif ;
+        font-weight: bolder;
+        font-size:25px;
+    }
+
+    .pcontent{
+        font-family:'Roboto',sans-serif ;
+        font-size:15px;
+    }
+
+    .Discover{
+        font-family: 'Roboto',sans-serif;
+        font-size:10px;
+        margin-top:20px;
+        height:30px;
+        width:130px;
+        border:none;   
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    .Discover:hover{
+        background-color: rgb(111,220,235);
+    }
+
+
+    .pcontent > .specific_text{
+        color:blue;
+        display: inline;
+        text-decoration: none;
+    }
+} 
+
+@media screen and (min-width:1440px) and (max-width:2560px) {
+
+    #bookscontent{
+    width:100%;
+    }
+
+    .books{
+        height:500x;
+        width:450px;
+    }
+
+    .pheading{
+        font-family:'Roboto',sans-serif ;
+        font-weight: bolder;
+        font-size:30px;
+    }
+
+    .pcontent{
+        font-family:'Roboto',sans-serif ;
+        font-size:20px;
+    }
+
+    .Discover{
+        font-family: 'Roboto',sans-serif;
+        font-size:13px;
+        margin-top:20px;
+        height:35px;
+        width:150px;
+        border:none;   
+        border-radius: 22px 22px 22px 22px;
+    }
+
+    .books{
+        height:500px;
+        width:630px;
+    
+    }
+
+    .pcontent > .specific_text{
+        color:blue;
+        display: inline;
+        text-decoration: none;
+    }
+
+}
+
+/* Media Query for Multiple icons with heading and text start */
+@media screen and (min-width:320px) and (max-width:767px){
+    
+    .right-content{
+        flex-direction:column;
+        align-items: center;
+    }
+    
+    .para-head > .head{
+        font-size:15px;
+    }
+
+    .para-head > .para{
+        font-size: 10px;
+    }
+
+    .iconimg > img{
+        height:35px;
+        width:35px;
+        margin-top:20px;
+    }
+
+    .textcontent{
+        margin-left:20px;
+        margin-top:0px;
+    }
+
+    .headcontent{
+        font-size:10px;
+    }
+
+    .paracontent{
+        font-size:10px;
+    }
+
+
+    .paracontent > a{
+        text-decoration: none;
+    }
+
+    .laptop{
+        height:200px;
+        width:200px;
+    }
+
+    .rightimg2{ 
+        margin-top:30px;
+        margin-left:100px;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+   
+    .para-head > .head{
+    font-size:15px;
+    }
+
+    .para-head > .para{
+    font-size: 10px;
+    }
+
+    .iconimg > img{
+        height:40px;
+        width:40px;
+        margin-top:25px;
+    }
+
+    .textcontent{
+        margin-left:20px;
+        margin-top:0px;
+    }
+
+    .headcontent{
+        font-size:13px;
+    }
+
+    .paracontent{
+        font-size:10px;
+    }
+
+
+    .paracontent > a{
+        color:blue;
+        text-decoration: none;
+    }
+
+
+    .paracontent> a:hover{
+        color:black;
+
+    }
+
+    .laptop{
+        height:300px;
+        width:300px;
+    }
+    .rightimg2{ 
+        margin-top:30px;
+        margin-left:100px;
+    }
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1439px) {
+
+    .para-head>.head {
+        font-size: 25px;
+    }
+    
+    .para-head>.para {
+        font-size: 15px;
+    }
+
+    .iconimg > img{
+        height:50px;
+        width:50px;
+        margin-top:35px;
+    }
+
+    .textcontent{
+        margin-left:20px;
+        margin-top:10px;
+    }
+
+    .headcontent{
+        font-size:15px;
+    }
+
+    .paracontent{
+        font-size:13px;
+    }
+
+    .laptop{
+        height:350px;
+        width:400px;
+    }
+    .rightimg2{ 
+        margin-top:75px;
+        margin-left:100px;
+    }
+
+}
+
+@media screen and (min-width:1440px) and (max-width:2560px) {
+
+    .para-head > .head{
+    font-size:30px;
+    }
+
+    .para-head > .para{
+    font-size: 20px;
+    }
+
+    .iconimg > img{
+        height:70px;
+        width:70px;
+        margin-top:35px;
+    }
+
+    .textcontent{
+        margin-left:20px;
+        margin-top:10px;
+    }
+
+    .headcontent{
+        font-size:20px;
+    }
+
+    .paracontent{
+        font-size:15px;
+    }
+
+    .laptop{
+        height:480px;
+        width:500px;
+    }
+    .rightimg2{ 
+        margin-top:75px;
+        margin-left:130px;
+    }
+
+}
+
+
+/* Media Query Multiple box with color buttons css starts */
+@media screen and (min-width:320px) and (max-width:767px){
+    
+    #cardsbg{
+        height:300px;
+        width:100%;
+    }
+
+    .card1{
+        height:225px;
+        width:175px;
+        /* display:none; */
+    }
+
+    .cirbg{
+        height: 55px;
+        width:55px;
+    }
+
+    .card2{
+        background-color: white;
+        margin-top:10px;
+        height:225px;
+        width:175px;
+        display:none;
+    }
+
+    .card3{
+        height:225px;
+        width:175px;
+        display:none;
+    }
+
+    .cirbg > img{
+        height:30px;
+        width:30px;
+    }
+
+    .cirhead{
+        font-weight:300;
+        font-family: 'Roboto',sans-serif ;
+        font-size: 15px;
+    }
+
+    .para{
+        font-size: 8px;
+    }
+
+    .bgbutton{
+        font-size:8px;
+        height: 25px;
+        width:70px;
+    }
+
+    .bgbuttons{
+        height:25px;
+        font-size:8px;
+        margin-top:5px;
+    }
+
+    .left-arrow {
+        height:25px;
+        width:25px;
+    }
+
+    .left-arrow , .right-arrow > i {
+        font-size:15px;
+    }
+
+    .right-arrow{
+        height:25px;
+        width:25px;
+        font-size:30px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    #cardsbg{
+        height:350px;
+        width:100%;
+    }
+
+    .card1{
+        height:225px;
+        width:175px;
+    }
+
+    .cirbg{
+        height: 55px;
+        width:55px;
+    }
+
+    .card2{
+        background-color: white;
+        margin-top:10px;
+        height:225px;
+        width:175px;
+    }
+
+    .card3{
+        height:225px;
+        width:175px;
+    }
+
+    .cirbg > img{
+        height:30px;
+        width:30px;
+    }
+
+    .cirhead{
+        font-weight:300;
+        font-family: 'Roboto',sans-serif ;
+        font-size: 15px;
+    }
+
+    .para{
+        font-size: 8px;
+    }
+
+    .bgbutton{
+        font-size:8px;
+        height: 25px;
+        width:70px;
+    }
+
+    .bgbuttons{
+        height:25px;
+        font-size:8px;
+        margin-top:5px;
+    }
+
+    .left-arrow {
+        height:25px;
+        width:25px;
+    }
+
+    .left-arrow , .right-arrow > i {
+        font-size:15px;
+    }
+
+    .right-arrow{
+        height:25px;
+        width:25px;
+        font-size:30px;
+    }
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1439px) {
+    #cardsbg{
+        height:500px;
+        width:100%;
+    }
+
+    .card1{
+        height:280px;
+        width:200px;
+    }
+
+    .cirbg{
+        height: 70px;
+        width:70px;
+    }
+
+    .card2{
+        height:280px;
+        width:200px;
+    }
+
+    .card3{
+        height:280px;
+        width:200px;
+    }
+
+    .cirbg > img{
+        height:30px;
+        width:30px;
+    }
+
+    .cirhead{
+        font-weight:300;
+        font-family: 'Roboto',sans-serif ;
+        font-size: 20px;
+    }
+
+    .para{
+        font-size: 10px;
+    }
+
+    .bgbutton{
+        font-size:8px;
+        height: 25px;
+        width:70px;
+    }
+
+    .bgbuttons{
+        height:25px;
+        font-size:8px;
+        margin-top:5px;
+    }
+
+    .left-arrow {
+        height:35px;
+        width:35px;
+    }
+
+    .left-arrow , .right-arrow > i {
+        font-size:25px;
+        
+    }
+
+    .right-arrow{
+        height:35px;
+        width:35px;
+        font-size:30px;
+    }
+
+
+}
+
+
+@media screen and (min-width:1440px) and (max-width:2560px) {
+    #cardsbg{
+        height:700px;
+        width:100%;
+        margin-top: 50px;
+    }
+
+    .card1{
+        height:450px;
+        width:350px;
+    
+    }
+    .cirbg{
+        height: 110px;
+        width:110px;
+    }
+    .card2{
+        height:450px;
+        width:350px;    
+    }
+
+    .card3{
+        height:450px;
+        width:350px;
+    }
+
+    .cirbg > img{
+        height:60px;
+        width:60px;
+    }
+
+    .cirhead{
+        font-weight:300;
+        font-size: 20px;
+    }
+
+    .para{
+        font-size: 15px;
+    }
+
+    .bgbutton{
+        height:45px;
+        width:125px;
+    }
+
+    .bgbuttons{
+        height:45px;
+        width:140px;
+    }
+
+    .left-arrow {
+        height:50px;
+        width:50px;
+        font-size:30px;
+    }
+
+    .right-arrow{
+        height:50px;
+        width:50px;
+        font-size:30px;
+    }
+
+
+}
+
+@media screen and (min-width:320px) and (max-width:767px){
+    .faq-head{
+        font-size: 20px;  
+    }
+
+    .faq-para{
+        font-size:10px;
+    }
+
+    .headline{
+        font-size: 13px;
+    }
+
+    .paraline{
+        font-size:10px;
+    }
+
+    .wholetext > div > button{
+        height:25px;
+        width:85px;
+        font-size:10px;  
+    }
+
+    .downarrows{
+        height:125px;
+        width:150px;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    .faq-head{
+        font-size: 30px;  
+    }
+
+    .faq-para{
+        font-size:15px;
+        color:grey;
+
+    }
+
+    .headline{
+        font-size: 15px;
+    }
+
+    .paraline{
+        font-size:10px;
+    }
+
+    .wholetext > div > button{
+        height:25px;
+        width:85px;
+        font-size:10px;  
+    }
+
+    .wholetext > button:hover{
+        background-color:rgb(111,220,235);
+    }
+
+    .downarrows{
+        height:125px;
+        width:150px;
+    }
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1439px) {
+
+    .faq-head{
+        font-size: 38px;  
+    }
+
+    .faq-para{
+        font-size:20px;
+    }
+
+    .headline{
+        font-size: 20px;
+    }
+
+    .paraline{
+        font-size:15px;
+    }
+
+    .wholetext > div > button{
+        height:25px;
+        width:85px;
+        font-size:10px;  
+    }
+
+    .wholetext > button:hover{
+        background-color:rgb(111,220,235);
+    }
+
+    .downarrows{
+        height:125px;
+        width:150px;
+    }
+
+}
+
+
+@media screen and (min-width:1440px) and (max-width:2560px) {
+
+    .faq-head{
+        font-size: 55px;
+    }
+
+    .faq-para{
+        font-size:20px;
+    }
+
+    .headline{
+        font-size: 30px;
+    }
+    .paraline{
+        font-size:20px;
+    }
+
+    .wholetext > div > button{
+        height:35px;
+        width:120px;
+    }
+
+    .downarrows{
+        height:250px;
+        line-height: 40px;
+        margin-top:20px;
+        width:300px;
+    }
+
+}
+
+/* Media for Map & Text Boxt Start */
+
+@media screen and (min-width:320px) and (max-width:767px){
+
+    .mapform {
+        width: 100%;
+        margin-top: 50px;
+        height:800px;
+        flex-direction: column;
+    }
+
+    .form {
+        width: 100%;
+        margin-top:30px;
+    }
+
+    .fname {
+        margin-right: 10px;
+        width:35%;
+    }
+
+    .email{
+        width:35%;
+    }
+
+    .input_text {
+        width: 100%;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .form > .input_text {
+        width: 100%;
+        height: 40px;
+        font-size: 18px;
+        top: 100px;
+        padding-left: 10px;
+    }
+
+    .form>input::placeholder {
+        padding-left: 5px;
+    }
+
+    .message_button{
+        margin-top:20px;
+
+    }
+    .message_button > textarea {
+        height: 100px;
+        width: 72%;
+        font-size: 15px;
+        outline: none;
+    }
+
+    .form>textarea {
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .form>textarea::placeholder {
+        padding-left: 5px;
+    }
+
+    .sendit_button{
+        margin-top:15px;
+        height: 20px;
+        font-size:10px;
+        width: 60px;
+    }
+
+
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    .mapform {
+        width: 100%;
+        margin-top: 50px;
+        height:800px;
+        flex-direction: column;
+    }
+
+    .form {
+        width: 100%;
+        margin-top:30px;
+    }
+
+    .fname {
+        margin-right: 10px;
+        width:50%;
+    }
+
+    .email{
+        width:50%;
+    }
+
+    .input_text {
+        width: 100%;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .form > .input_text {
+        width: 100%;
+        height: 40px;
+        font-size: 18px;
+        top: 100px;
+        padding-left: 10px;
+    }
+
+    .form>input::placeholder {
+        padding-left: 5px;
+    }
+
+    .message_button{
+        margin-top:20px;
+
+    }
+    .message_button > textarea {
+        height: 150px;
+        width: 98%;
+        font-size: 15px;
+        outline: none;
+    }
+
+    .form>textarea {
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .form>textarea::placeholder {
+        padding-left: 5px;
+    }
+
+    .sendit_button{
+        margin-top:10px;
+        height: 30px;
+        width: 70px;
+    }
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1439px) {
+    
+    .mapform {
+        width: 100%;
+        margin-top: 50px;
+        height:800px;
+        flex-direction: column;
+    }
+
+    .form {
+        width: 100%;
+        margin-top:30px;
+    }
+
+    .fname {
+        margin-right: 10px;
+        width:50%;
+    }
+
+    .email{
+        width:50%;
+    }
+
+    .input_text {
+        width: 100%;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .form > .input_text {
+        width: 100%;
+        height: 40px;
+        font-size: 18px;
+        top: 100px;
+        padding-left: 10px;
+    }
+
+    .form>input::placeholder {
+        padding-left: 5px;
+    }
+
+    .message_button{
+        margin-top:20px;
+
+    }
+    .message_button > textarea {
+        height: 150px;
+        width: 98%;
+        font-size: 15px;
+        outline: none;
+    }
+
+    .form>textarea {
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .form>textarea::placeholder {
+        padding-left: 5px;
+    }
+
+    .sendit_button{
+        margin-top:10px;
+        height: 30px;
+        width: 70px;
+    }
+
+
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    #endpart {
+        width: 100%;
+        height: 50px;
+    }
+
+    .lastconbg {
+        height: 30px;
+        width: 30px;
+        margin-left: 30px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lastconbg > i{
+        font-size:15px;
+        padding-bottom: 20px;
+    
+    }
+    .lastline{
+        font-size:10px;
+    
+    }
+    .icon {
+        margin-top: 23px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:767px){
+    #endpart {
+        width: 100%;
+        height: 50px;
+        flex-direction: column;
+    }
+
+    .lastconbg {
+        height: 30px;
+        width: 30px;
+        /* margin-left: 30px; */
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lastconbg > i{
+        font-size:15px;
+        padding-bottom: 20px;
+    
+    }
+    .lastline{
+        font-size:10px;
+    
+    }
+
+    .icon {
+        margin-top: 23px;
+    }
+
+
+}
+

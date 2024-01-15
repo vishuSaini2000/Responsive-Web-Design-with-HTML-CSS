@@ -1,0 +1,365 @@
+body {
+    font-family:'Roboto',sans-serif;
+}
+.firstbg{
+    background-image: url('banner-bg.png');
+    height: 859px;
+    width:100%;
+}
+.AbsNav{
+    display:flex ;
+    justify-content: space-between;
+    align-items:center;
+}
+#logo{
+    margin-left:250px;
+    color:white;
+    font-family:'Roboto',sans-serif;
+}
+.navbar{
+    display:flex;
+    margin-right:130px;
+}
+.navtext{
+    padding:15px;
+    color:white;
+    font-family:'Roboto',sans-serif;
+}
+.secondpart{
+    display:flex;
+}
+.Heading{
+    color:white;
+    font-family:'Roboto',sans-serif;
+    margin-left:250px;
+    margin-top:100px;
+    font-size: 65px;
+}
+.text{
+    color:white;
+    font-family:'Roboto',sans-serif;
+    margin-top:-50px;
+    margin-left:250px;
+    font-weight:light;
+}
+
+.findbutton{
+    background-color: red;
+    color:white;
+    
+    height:35px;
+    width:150px;
+    margin-left:250px;
+    margin-top:10px;
+    border:none;  
+    border-radius:20px 20px 20px 20px;
+}
+.rightcontent{
+    align-items: right;
+}
+.lefpart{
+    display:flex;
+}
+.leftimg2{
+    display:flex;
+    margin-left:150px;
+}
+.heading{
+    margin-left:20px;
+    margin-top:50px;
+    font-family:'Roboto',sans-serif;
+}
+.paragraph{
+    /* margin-top:300px; */
+    margin-left:20px;
+    font-family:'Roboto',sans-serif;
+    font-size:20px;
+    margin-right:30px;
+}
+.Discover{
+    background-color: rgb(43, 125, 219);
+    color:white;
+    
+    height:35px;
+    width:150px;
+    margin-left:20px;
+    margin-top:10px;
+    border:none;   
+    border-radius:20px 20px 20px 20px;
+}
+
+.rightpart{
+    margin-top:100px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.rightheading1{
+    
+}
+.rightpara1{
+    font-family:'Roboto',sans-serif;
+    font-size:20px;
+    /* margin-right:30px; */
+}
+
+.icons{
+    display:flex;
+    margin-top:10px;
+}
+.icons_heading{
+    font-family:'Roboto',sans-serif;
+    margin-left:20px;
+    
+}
+.icon_para{
+    margin-left:80px;
+    margin-top:-10px;
+    font-family:'Roboto',sans-serif;
+}
+.bgcolor{
+    background-color: rgb(47, 139, 245);
+    width:100%;
+    height:550px;
+    margin-top:80px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.arrowbg{
+    background-color: rgba(245, 241, 241, 0.514);
+    height:50px;
+    width:50px;
+    border-radius:50px 50px 50px 50px;
+}
+.bgcolor1{
+    background-color: white;
+    width:25%;
+    height:400px;
+    align-items: center;
+    text-align: center;
+    border-radius:20px 20px 20px 20px;
+}
+
+.iconbg{
+    background-color:  rgb(47, 139, 245);
+    height:100px;
+    width:100px;
+    margin-left:135px;
+    margin-top:50px;
+    border-radius:100% 100% 100% 100%;
+}
+
+.head1{
+    font-family:'Roboto',sans-serif;
+    font-size: 20px;
+    margin-top:25px;
+}
+.para{
+    text-align: center;
+    font-family:'Roboto',sans-serif;
+    font-size: 15px;
+    color:grey;
+}
+
+.bgbutton{
+    background-color: rgb(43, 125, 219);
+    color:white;
+    
+    height:45px;
+    width:125px;
+    margin-top:10px;
+    border:none;   
+    border-radius:20px 20px 20px 20px;
+}
+
+.bgbuttons{
+    background-color: rgb(43, 125, 219);
+    color:white;
+    height:45px;
+    width:140px;
+    margin-top:10px;
+    border:none;   
+    border-radius:20px 20px 20px 20px;
+}
+
+
+.mmg{
+    margin-top:30px;
+    margin-right:5px;
+}
+.FAQ{
+    text-align: center;
+}
+.headfaq{
+    
+    font-weight: lighter;
+    margin-top:50px;
+    font-size:50px;
+}
+.parafaq{
+    /* font-family:'Roboto',sans-serif; */
+    font-size:20px;
+    color:grey;
+}
+.headleft{
+    display:flex;
+}
+.faq2nd{
+    display:flex;
+    justify-content: space-evenly;
+}
+.FAQheading{
+    
+}
+/* .faqpara{
+    justify-content: space-evenly;
+}
+.head2{
+    font-family:'Roboto',sans-serif;
+    font-style:lighter;
+    justify-content:space-evenly;
+    margin-top:80px;
+    margin-left:150px;
+    display: flex;
+}
+.dropdown{
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+.head2para{
+    justify-content: space-evenly;
+    font-family:'Roboto',sans-serif;
+    font-size:20px;
+    font-style:lighter;
+    margin-left:150px;
+    color:grey;
+    display:flex;
+}
+.head2para-right{
+    align-items:flex-end;
+}
+.forflex{
+    align-items: flex-start;
+}
+.embutton{
+    display:flex;
+}
+.emstyle{
+    color:grey;
+    font-family:'Roboto',sans-serif;
+    font-size:15px;
+}
+.mailstyle{
+    color:rgb(43, 125, 219);
+    font-size:15px;
+} */
+.contactus{
+    background-color: rgb(43, 125, 219);
+    color:white;
+    
+    height:40px;
+    width:120px;
+    margin-top:10px;
+    border:none;
+    display:flex;  
+    border-radius:20px 20px 20px 20px;
+}
+
+
+.map-container {
+    width: 50%;
+    margin-top:50px;
+    margin-left:20px;
+}
+.mapform{
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly
+}
+.rightcolor{
+    background-color: rgb(43, 125, 219);
+    height:450px;
+    width:50%;
+    /* padding-left:10px;
+    margin-top:51px; */
+    
+}
+.onetwobox{
+    display:flex;
+    margin-top:50px;
+}
+.endpart{
+    display:flex;
+    justify-content: space-between;
+}
+.lastline{
+    
+    margin-top:80px;
+    margin-left:120px;
+}
+.lastline_color{
+    color:rgb(43, 125, 219);
+    
+    margin-right:30px;
+    margin-top:130px;
+    text-decoration: none;
+}
+.lasticon{
+    display:flex;
+    margin-top:50px;
+    margin-right:180px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.lastconbg{
+    background-color: rgb(43, 125, 219);
+    height:50px;
+    width:50px;
+    margin-right:30px;
+    border-radius:10px 10px 10px 10px;
+}
+
+
+.icon{
+    margin-top:23px;
+    color:white;
+}
+
+
+.fname{
+    margin-left:100px;
+    margin-top:50px;
+    height:40px;
+    width:250px;
+     border:none;
+    background-color: rgba(59, 193, 226, 0.753);
+}
+.email{
+    margin-top:50px;
+    height:40px;
+    width:250px;
+    margin-left:20px;
+    border:none;
+    background-color: rgba(59, 193, 226, 0.753);
+}
+.text_box{
+    margin-left:100px;
+    height:100px;
+    width:530px;
+    border:none;
+    background-color: rgba(59, 193, 226, 0.753);
+}
+.sendit{
+    background-color: rgb(238, 62, 39);
+    color:white;
+    
+    height:40px;
+    width:80px;
+    margin-top:10px;
+    margin-left:300px;
+    border:none;  
+    border-radius:20px 20px 20px 20px; 
+}
